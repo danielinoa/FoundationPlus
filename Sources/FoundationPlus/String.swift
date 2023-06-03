@@ -4,7 +4,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
 
     /// Returns a Data containing a representation of the String encoded using utf-8 encoding.
     func utf8Encoded() -> Data {
